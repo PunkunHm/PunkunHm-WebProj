@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Purin's Gallery</title>
+    
+    <style>
+        body {
+            background-color: white; /* Set the default background color */
+            color: #6c5b37;
+            font-family: 'Poppins';
+            font-size: medium;
+            margin: 0;
+            min-width: 960px;
+            padding: 0;
+        }
+		
+    </style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="js/app.js"></script>
+</head>
+<body id="home">
+	<div>
+        <div class="header" style="animation: fade-up 0.5s;">
+            <div style="margin-right: 10px">
+                <img src="images/me.jpg" alt="Logo" style="height: 300px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+            </div>
+            <div style="margin-left: 20px">
+                <form onSubmit="changeToName(event)">
+                    <p class="intro" style="font-weight: bold;font-size: 30px;">
+                        Welcome to my art gallery, 
+                        <span>
+                            <input placeholder="Type your name and press Enter" type="text" name="text" class="input" id="myInput"/>
+                        </span>
+                        !
+                    </p>
+                    <p style="margin-left: 15px;">
+                        My name is Purin.
+                        I am a hobbyist artist who loves to draw if free time is available and will be showcasing some of the work I did here.
+                        I created this website with templates from <a href="https://freewebsitetemplates.com">freewebsitetemplates.com</a> with edits in most parts.
+						This website has only one page as it is enough for showcasing my work!
+					</p>
+                </form>
+            </div>
+        </div>
+        <a href="#gallery">
+            <div class="scroll-down"></div>
+        </a>
+	</div>
+
+    <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="#contact">ID/Contacts</a>
+    </div>
+	<div id="navbar-placeholder"></div>
+	<div class="body" id="gallery">
+		<div>
+			<div class="body" style="background-color: whitesmoke;">
+				<img src="images/Kanna.png" alt="BlueArchiveKanna" class="hidden" style="height: 1000px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+				<ul>
+					<li class="hidden">
+						<img src="images/KannaHeadshot.png" alt="Image" style="width: 60px;height: 60px;">
+						<div>
+							<h2>Ogata Kanna</h2>
+							<p>
+								This was one of my best sketch
+							</p>
+						</div>
+					</li>
+					<li class="hidden">
+						<img src="images/KSPD.png" alt="Image" style="width: 60px;height: 60px;">
+						<div>
+							<h2>KSPD UNIT</h2>
+							<p>
+								An imaginary police unit from Blue archive 
+							</p>
+						</div>
+					</li>
+					<li class="hidden">
+						<img src="images/Halo.png" alt="Image" style="width: 60px;height: 60px;">
+						<div>
+							<h2>ANIMAL TRAITS</h2>
+							<p>
+								She is a half-feral hound
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<ul class="hidden">
+					<li>
+						<h2>Recently</h2>
+						<img src="images/Asuna.png" alt="Image" style="height: 300px;width: 200px;">
+					</li>
+					<li>
+						<h2>3 months ago</h2>
+						<img src="images/Karin.png" alt="Image" style="height: 300px;width: 175px;">
+					</li>
+					
+				</ul>
+				<ul class="hidden">
+					<li>
+						<h2>5 months ago</h2>
+						<img src="images/Vira.png" alt="Image" style="height: 340px;width: 250px;">
+					</li>
+					<li>
+						<h2>3 years ago</h2>
+						<img src="images/Ruri.jpg" alt="Image" style="height: 300px;width: 200px;">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="contact" class="footer">
+		<div>
+			<p>
+				23229602 Purintorn Soonsap
+			</p>
+		</div>
+	</div>
+</body>
+</html>
